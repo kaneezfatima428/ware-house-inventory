@@ -1,0 +1,11 @@
+{
+  "name": "inventory-and-warehouse-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN Inventory & Warehouse Management System with ImageKit and RBAC",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "build:client": "npm run build --prefix client"
+  }
+}
